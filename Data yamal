@@ -1,0 +1,7 @@
+path: datasets/cars_license_plate_new  # root dir
+train: train/images
+val: val/images
+
+# Classes
+names:
+  0: license_plate
