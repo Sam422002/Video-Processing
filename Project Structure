@@ -1,0 +1,24 @@
+license-plate-detection/
+│
+├── datasets/
+│   └── cars_license_plate_new/        # YOLO formatted datasets
+│       ├── train/
+│       ├── val/
+│       └── test/
+│
+├── model/
+│   └── best_license_plate_model.pt    # Trained YOLOv8 model
+│
+├── images/                            # Sample images for demo
+│
+├── videos/                            # Optional sample videos
+│
+├── app.py                             # Gradio app code
+├── detect.py                          # YOLO + OCR detection script
+├── process_dataset.py                 # Script for preparing the dataset
+├── datasets.yaml                      # YOLO data config
+│
+├── requirements.txt                   # All dependencies
+├── README.md                          # Project overview and instructions
+└── .gitignore
+
